@@ -95,7 +95,7 @@ Selector Engines
   available for anything but very simple queries (like id lookups). When a native selector engine is not available (
   IE7 and below), this supports simple, basic CSS2 level queries, consisting of elemental selectors: ``.class``, 
   ``#id``, ``tag``, and ``*``, attribute selectors, and child (``>``), descendant (space), and union (``,``) 
-  combinators.  If the native selector engine is, the engine does not support pseudo classes.
+  combinators.  If the native selector engine is used, the engine does not support pseudo classes.
 
 * ``css2.1`` - This will always use the ``lite`` engine when a native selector engine is available. When a native 
   selector engine is not available (IE7 and below), this will load ``acme``.
